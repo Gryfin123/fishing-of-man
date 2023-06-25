@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T19:52:38.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="s3wsDwD6HKb77vXpEHmE" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T20:02:29.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="WiyrNoE0lfAbaeoGvfoD" version="21.5.0" type="github">
   <diagram name="Page-1" id="t8bx6x7I-YUx6AVbqyT5">
-    <mxGraphModel dx="1671" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1526" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
         <mxCell id="mpGO6FQoUKyPo6UsDDuL-41" value="ItemData: ScriptableObject" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;swimlaneLine=1;glass=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1400" y="520" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mpGO6FQoUKyPo6UsDDuL-42" value="&lt;div&gt;string _name&lt;/div&gt;&lt;div&gt;Sprite _sprite&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="mpGO6FQoUKyPo6UsDDuL-41">
+        <mxCell id="mpGO6FQoUKyPo6UsDDuL-42" value="&lt;div&gt;string _name&lt;/div&gt;&lt;div&gt;Sprite _sprite&lt;/div&gt;&lt;div&gt;boolean _found&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="mpGO6FQoUKyPo6UsDDuL-41">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mpGO6FQoUKyPo6UsDDuL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mpGO6FQoUKyPo6UsDDuL-25" target="mpGO6FQoUKyPo6UsDDuL-42">
@@ -151,7 +151,7 @@
         <mxCell id="mpGO6FQoUKyPo6UsDDuL-57" value="CollectionItemData: ScriptableObject" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;swimlaneLine=1;glass=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-520" y="360" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="mpGO6FQoUKyPo6UsDDuL-58" value="&lt;div&gt;bool _found&lt;/div&gt;&lt;div&gt;bool _visited&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OnFound(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;OnVisited(): void&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="mpGO6FQoUKyPo6UsDDuL-57">
+        <mxCell id="mpGO6FQoUKyPo6UsDDuL-58" value="bool _visited&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OnVisited(): void&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="mpGO6FQoUKyPo6UsDDuL-57">
           <mxGeometry y="50" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="mpGO6FQoUKyPo6UsDDuL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mpGO6FQoUKyPo6UsDDuL-51" target="mpGO6FQoUKyPo6UsDDuL-58">
