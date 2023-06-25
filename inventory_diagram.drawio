@@ -1,53 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T00:15:09.175Z" agent="5.0 (Windows)" version="20.7.4" etag="3c9A69-J39S-bAxcqJTz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T00:18:35.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="lXd3QWYOvcIfork6lvm4" version="21.5.0" type="github">
   <diagram id="px11UpSbY-nVJOwti2Pc" name="Page-1">
-    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JakbkevV6Aye5FfJxtAG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-8" target="JakbkevV6Aye5FfJxtAG-13">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-8" target="JakbkevV6Aye5FfJxtAG-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-16" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-15">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-16" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-15" vertex="1" connectable="0">
           <mxGeometry x="-0.2179" y="-1" relative="1" as="geometry">
             <mxPoint x="-15" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-8" value="Inventory" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-8" value="Inventory" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="20" y="120" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-12" value="Contains items that have been collected, their amount and the shadows of items that haven&#39;t been found yet." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-12" value="Contains items that have been collected, their amount and the shadows of items that haven&#39;t been found yet." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="160" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-13" target="JakbkevV6Aye5FfJxtAG-21">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-13" target="JakbkevV6Aye5FfJxtAG-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-23" value="Spends to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-22">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-23" value="Spends to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-22" vertex="1" connectable="0">
           <mxGeometry x="-0.2179" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-13" value="Item" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-13" value="Item" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="120" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-17" target="JakbkevV6Aye5FfJxtAG-13">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-17" target="JakbkevV6Aye5FfJxtAG-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-17" value="Fishing" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-17" value="Fishing" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-21" target="JakbkevV6Aye5FfJxtAG-30">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-21" target="JakbkevV6Aye5FfJxtAG-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="730" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-37" value="&lt;div&gt;Contains&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-36">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-37" value="&lt;div&gt;Contains&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-36" vertex="1" connectable="0">
           <mxGeometry x="-0.8645" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-13" target="JakbkevV6Aye5FfJxtAG-38">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="JakbkevV6Aye5FfJxtAG-13" target="JakbkevV6Aye5FfJxtAG-38" edge="1">
           <mxGeometry x="-0.3151" y="-50" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="690" y="150" />
@@ -56,29 +56,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-42" value="&lt;div&gt;Unlocks&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-41">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-42" value="&lt;div&gt;Unlocks&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-41" vertex="1" connectable="0">
           <mxGeometry x="0.062" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-21" value="&lt;div&gt;Upgrade Skilltree&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-21" value="&lt;div&gt;Upgrade Skilltree&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="700" y="120" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-24" value="&lt;div&gt;Items can have different functions.&lt;/div&gt;&lt;div&gt;- Some can be places in the maze&lt;/div&gt;&lt;div&gt;- Some can be place in world map and be picked up&lt;/div&gt;&lt;div&gt;- All can be put in the inventory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-24" value="&lt;div&gt;Items can have different functions.&lt;/div&gt;&lt;div&gt;- Some can be places in the maze&lt;/div&gt;&lt;div&gt;- Some can be place in world map and be picked up&lt;/div&gt;&lt;div&gt;- All can be put in the inventory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="160" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-25" target="JakbkevV6Aye5FfJxtAG-13">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-25" target="JakbkevV6Aye5FfJxtAG-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-29" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-27">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-29" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-27" vertex="1" connectable="0">
           <mxGeometry x="-0.6771" y="1" relative="1" as="geometry">
             <mxPoint x="-9" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-25" target="JakbkevV6Aye5FfJxtAG-30">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-25" target="JakbkevV6Aye5FfJxtAG-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-25" target="JakbkevV6Aye5FfJxtAG-32">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-25" target="JakbkevV6Aye5FfJxtAG-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="300" />
@@ -86,59 +86,59 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-25" value="Collection" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-25" value="Collection" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="20" y="280" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-26" value="Contains items that have been collected, their amount and the shadows of items that haven&#39;t been found yet." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-26" value="Contains items that have been collected, their amount and the shadows of items that haven&#39;t been found yet." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="320" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-30" value="Techniques" style="whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-30" value="Techniques" style="whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="300" y="280" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-32" value="Powers" style="whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-32" value="Powers" style="whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="300" y="440" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-34" value="Allows new ways to interact with the game and new features" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-34" value="Allows new ways to interact with the game and new features" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="320" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-35" value="Powerful one-time abilities. Recharging requires effort." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-35" value="Powerful one-time abilities. Recharging requires effort." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="480" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-40" value="Unlocks" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-38" target="JakbkevV6Aye5FfJxtAG-32">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-40" value="Unlocks" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="JakbkevV6Aye5FfJxtAG-38" target="JakbkevV6Aye5FfJxtAG-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-38" value="Sacrifices" style="whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-38" value="Sacrifices" style="whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="500" y="440" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-39" value="Sacrefices requrie huge amount of items, to recharge the use of Powers and to influence terrain." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-39" value="Sacrefices requrie huge amount of items, to recharge the use of Powers and to influence terrain." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=8;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="480" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-47" value="«interface»&lt;br&gt;&lt;b&gt;Collectable&lt;/b&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-47" value="«interface»&lt;br&gt;&lt;b&gt;Collectable&lt;/b&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="1120" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-48" value="«interface»&lt;br&gt;&lt;div&gt;&lt;b&gt;WorldmapItem&lt;/b&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-48" value="«interface»&lt;br&gt;&lt;div&gt;&lt;b&gt;WorldmapItem&lt;/b&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="1280" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-49" value="«interface»&lt;br&gt;&lt;b&gt;MazeItem&lt;/b&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-49" value="«interface»&lt;br&gt;&lt;b&gt;MazeItem&lt;/b&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="1440" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-50" value="«interface»&lt;br&gt;&lt;div&gt;&lt;b&gt;Inventory&lt;/b&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-50" value="«interface»&lt;br&gt;&lt;div&gt;&lt;b&gt;Inventory&lt;/b&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="1600" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-67" value="+ unlockCost[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-63" target="JakbkevV6Aye5FfJxtAG-65">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-67" value="+ unlockCost[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-63" target="JakbkevV6Aye5FfJxtAG-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-69" value="*..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-67">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-69" value="*..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-67" vertex="1" connectable="0">
           <mxGeometry x="0.9052" y="-3" relative="1" as="geometry">
             <mxPoint x="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-70" value="0 ... 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="JakbkevV6Aye5FfJxtAG-67">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-70" value="0 ... 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="JakbkevV6Aye5FfJxtAG-67" vertex="1" connectable="0">
           <mxGeometry x="-0.9083" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-63" target="JakbkevV6Aye5FfJxtAG-47">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-63" target="JakbkevV6Aye5FfJxtAG-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1200" y="220" />
@@ -146,10 +146,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Technique&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ unlocked: boolean&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Technique&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ unlocked: boolean&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1120" y="80" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-50">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1630" y="230" />
@@ -157,7 +157,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-49">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1630" y="230" />
@@ -165,7 +165,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-48">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1630" y="230" />
@@ -173,7 +173,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-47">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="JakbkevV6Aye5FfJxtAG-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1630" y="230" />
@@ -181,19 +181,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _sprite: Sprite&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _name: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _sprite: Sprite&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _name: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1550" y="80" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-71" value="&lt;div&gt;+ GetUnlockStatus(): boolean&lt;/div&gt;&lt;div&gt;+ SetUnlockStatus(bool): void&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-71" value="&lt;div&gt;+ GetUnlockStatus(): boolean&lt;/div&gt;&lt;div&gt;+ SetUnlockStatus(bool): void&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1120" y="330" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-72" value="+ OnPickupHandler(): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-72" value="+ OnPickupHandler(): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1280" y="330" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-73" value="+ OnCollisionHandler(): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-73" value="+ OnCollisionHandler(): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1440" y="330" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-74" value="+ GetAmount(): int&lt;br&gt;+ SetAmount(int): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-74" value="+ GetAmount(): int&lt;br&gt;+ SetAmount(int): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1600" y="330" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
