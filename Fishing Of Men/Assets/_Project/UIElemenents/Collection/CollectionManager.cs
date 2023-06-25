@@ -8,6 +8,16 @@ public class CollectionManager : MonoBehaviour
     [SerializeField] private GameObject _prefCollectionElement;
     [SerializeField] private GameObject _targetContainer;
 
+    [SerializeField] private bool _fillInOnAwake = true;
+
+    private void Awake()
+    {
+        if (_fillInOnAwake)
+        {
+            UpdateCollection();
+        }
+    }
+
     public void UpdateCollection()
     {
         // Destroy all current elements in Panel
@@ -15,6 +25,7 @@ public class CollectionManager : MonoBehaviour
             DestroyImmediate(_targetContainer.transform.GetChild(0).gameObject);
         }
 
+        // Fill the list in with new content
         foreach(soCollectionItemData currData in _collectionData)
         {
             Debug.Log("Found: " + currData.ItemData.Name);
