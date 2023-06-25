@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T00:18:35.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="lXd3QWYOvcIfork6lvm4" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T10:54:54.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="6lc6meRDTPyGqUa9I9ZN" version="21.5.0" type="github">
   <diagram id="px11UpSbY-nVJOwti2Pc" name="Page-1">
-    <mxGraphModel dx="989" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="575" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,8 +141,8 @@
         <mxCell id="JakbkevV6Aye5FfJxtAG-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;endArrow=block;endFill=0;dashed=1;" parent="1" source="JakbkevV6Aye5FfJxtAG-63" target="JakbkevV6Aye5FfJxtAG-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1200" y="220" />
-              <mxPoint x="1175" y="220" />
+              <mxPoint x="1175" y="200" />
+              <mxPoint x="1175" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -181,20 +181,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _sprite: Sprite&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _name: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" parent="1" vertex="1">
+        <mxCell id="S1X9wwhsjLXivbRTcDgk-2" value="&amp;nbsp;- itemData" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JakbkevV6Aye5FfJxtAG-65" target="S1X9wwhsjLXivbRTcDgk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JakbkevV6Aye5FfJxtAG-65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- itemData: soItemDate&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1550" y="80" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-71" value="&lt;div&gt;+ GetUnlockStatus(): boolean&lt;/div&gt;&lt;div&gt;+ SetUnlockStatus(bool): void&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-71" value="&lt;div&gt;+ GetUnlockStatus(): boolean&lt;/div&gt;&lt;div&gt;+ SetUnlockStatus(bool): void&lt;/div&gt;&lt;div&gt;+ GetData(): soItemData&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1120" y="330" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-72" value="+ OnPickupHandler(): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-72" value="&lt;div&gt;+ OnPickupHandler(): void&lt;/div&gt;&lt;div&gt;+ GetData(): soItemData&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1280" y="330" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JakbkevV6Aye5FfJxtAG-73" value="+ OnCollisionHandler(): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1440" y="330" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JakbkevV6Aye5FfJxtAG-74" value="+ GetAmount(): int&lt;br&gt;+ SetAmount(int): void" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
+        <mxCell id="JakbkevV6Aye5FfJxtAG-74" value="+ GetAmount(): int&lt;br&gt;&lt;div&gt;+ SetAmount(int): void&lt;/div&gt;&lt;div&gt;+ GetData(): soItemData&lt;/div&gt;" style="html=1;rounded=0;shadow=0;sketch=0;fontSize=8;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1600" y="330" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S1X9wwhsjLXivbRTcDgk-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;soItemData&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ _name: string&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ _sprite: Sprite&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="80" width="160" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
